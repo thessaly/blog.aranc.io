@@ -1,0 +1,129 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+
+.site-footer {
+  border-top: 0px solid $grey-color-light;
+  padding: $spacing-unit/6 ;
+  background-color: #BD0048;
+}
+
+.footer-content {
+  display: block;
+  padding: 8px 16px;
+  color: white;
+  font-family: monospace;
+  font-size: 13px;
+  text-align: center;
+  font-weight: bold;
+
+}
+
+.footer-content a {
+  color: lightblue;
+}
+
+.navbar {
+  font-family: monospace;
+  font-size: 14px;
+  overflow: hidden;
+  width: 100%;
+  background-color: #F0F8FF;
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+height: 45px;
+position: relative;
+}
+.navbar li {
+  list-style: none;
+  display: inline;
+  float:right;
+}
+
+.navbar a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover:not(.active) {
+      background-color: #FFFF99;
+}
+
+#lang {
+  font-weight:bold;
+  color:rebeccapurple;
+  text-shadow: 1px 1px 1px #CDC0B0  ;
+}
+
+#home {
+  background-color: #CCFFCC;
+  font-weight: bold;
+
+}
+.active {
+  background-color: #ffe4b5;
+    font-weight: bold;
+}
+
+.page-content {
+  padding: $spacing-unit*2.5 $spacing-unit $spacing-unit $spacing-unit*2 ;
+  flex: 1 0 auto;
+}
+
+.post-list-heading {
+  @include relative-font-size(3.5);
+  font-weight: bolder;
+  font-family: monospace;
+}
+
+.post-list {
+  margin-left: 0;
+  list-style: none;
+
+  > li {
+    margin-bottom: $spacing-unit;
+  }
+}
+
+.post-meta {
+  font-size: $small-font-size;
+  font-family: monospace;
+  color: #BD0048;
+  margin-bottom: $spacing-unit
+}
+
+.post-link {
+  display: block;
+  color: $grey-color-dark;
+  @include relative-font-size(1.5);
+}
+
+.post-title,
+.post-content h1 {
+  @include relative-font-size(3);
+  letter-spacing: 1.5px;
+  line-height: 1.25;
+  font-weight: bolder;
+
+  @media screen and (min-width: $on-large) {
+    @include relative-font-size(3);
+  }
+}
+
+.labels a {
+  background-color: #BD0048;
+  color: white;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.labels a:hover {
+  text-decoration: none;
+  color: #F0F8FF;
+}
