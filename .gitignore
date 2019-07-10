@@ -5,6 +5,5 @@ _site
 *.gem
 .directory
 LICENSE.txt
-index.md
 .editorconfig
 .travis.yml
