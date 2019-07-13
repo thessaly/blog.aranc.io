@@ -145,7 +145,8 @@ position: relative;
  display:block;
  font-family: monospace;
  letter-spacing: 0.5px; 
- font-size:24px
+ font-size:24px;
+ color: #333333;
 }
 }
 
@@ -159,3 +160,10 @@ position: relative;
   letter-spacing: 3px; 
   margin-bottom: 20px;
  }
+
+.post-link {
+ display:block;
+ font-family: monospace;
+ letter-spacing: 0.5px; 
+ color: #333333;
+}
