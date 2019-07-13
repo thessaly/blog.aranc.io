@@ -127,3 +127,18 @@ position: relative;
   text-decoration: none;
   color: #F0F8FF;
 }
+
+@media screen and (min-width: 800px) {
+ 
+.post-list-heading {
+ font-size:56px;
+ font-weight:bolder;
+ font-family:monospace;
+ margin-bottom: 0
+}
+.post-list-subheading {
+  font-family: roboto;
+  font-size: 18px;
+  font-style: italic;
+  margin-bottom: 40px;
+}
