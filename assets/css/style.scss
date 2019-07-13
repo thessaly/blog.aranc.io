@@ -72,7 +72,7 @@ position: relative;
 }
 
 .page-content {
-  padding: $spacing-unit*2.5 $spacing-unit $spacing-unit $spacing-unit*2 ;
+  padding: 0;
   flex: 1 0 auto;
 }
 
@@ -138,7 +138,7 @@ position: relative;
  .post-list-subheading {
   font-family:monospace;
   font-size:18px;
-  margin-bottom:40px;
+  margin-bottom:50px;
   letter-spacing: 3px; 
  }
 .post-link {
@@ -158,7 +158,7 @@ position: relative;
  .post-list-subheading {
   font-family:monospace;
   letter-spacing: 3px; 
-  margin-bottom: 20px;
+  margin-bottom: 50px;
  }
 
 .post-link {
