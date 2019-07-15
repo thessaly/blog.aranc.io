@@ -49,7 +49,7 @@ nav {
   list-style-type: none;
   display: none;
   border-bottom: 2px solid #CCFFCC;
-
+  margin: 0;
 }
 
 .nav-links,
@@ -236,6 +236,7 @@ nav {
   padding-bottom: 0;
   height: 45px;
   align-items: center;
+  font-family: monospace;
 }
 .main-nav {
   display: flex;
@@ -250,7 +251,12 @@ nav {
 .nav-links {
   margin: 0;
   display: block;
-  padding: 14px ;
+  padding: 14px;
+  text-decoration: none;
+}
+.nav-links:hover {
+color: white;
+background-color: #BD0048;
 }
 .logo {
   margin-top: 0;
