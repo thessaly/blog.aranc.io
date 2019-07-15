@@ -51,10 +51,10 @@ position: relative;
   text-decoration: none;
 }
 
-.navbar a:hover:not(.active) {
-      background-color: #FFFF99;
+.nav-links:hover {
+color: white;
+background-color: #BD0048;
 }
-
 #lang {
   font-weight:bold;
   color:rebeccapurple;
