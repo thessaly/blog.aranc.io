@@ -4,7 +4,7 @@
 
 @import "minima";
 
-
+// Footer
 .site-footer {
   border-top: 0px solid $grey-color-light;
   padding: $spacing-unit/6 ;
@@ -19,13 +19,25 @@
   font-size: 13px;
   text-align: center;
   font-weight: bold;
-
 }
 
 .footer-content a {
   color: lightblue;
 }
 
+// Navbar
+
+header {
+    height: 30px;
+    background-color: pink;
+    margin-bottom: 40px;
+    diplay: flex;
+}
+
+nav {
+     position: relative;
+       z-index: 1;
+}
 
 .navbar {
   font-size: 14px;
@@ -39,7 +51,6 @@
   border-bottom: 2px solid #CCFFCC;
 
 }
-
 
 .nav-links,
 .logo {
@@ -89,9 +100,34 @@ nav {
 }
 .active {
   background-color: #ffe4b5;
-    font-weight: bold;
+  font-weight: bold;
 }
 
+#tw {
+  margin: 0;
+  display: block;
+  padding: 16px ;
+  font-weight: bold;
+  position: absolute;
+  left: 123px;
+  top: 0;
+}
+
+#gh {
+  margin: 0;
+  display: block;
+  padding: 16px ;
+  font-weight: bold;
+  position: absolute;
+  left: 172px;
+  top: 0;
+}
+
+#burger {
+  font-size:30px;
+}
+
+// Main content
 .page-content {
   padding: 0;
   flex: 1 0 auto;
@@ -149,6 +185,31 @@ nav {
   color: #F0F8FF;
 }
 
+.post-list-heading {
+  font-weight: normal;
+  font-family:monospace;
+  margin-bottom:0
+ }
+.post-list-subheading {
+  font-family:monospace;
+  letter-spacing: 3px;
+  margin-bottom: 50px;
+ }
+
+.post-link {
+ display:block;
+ font-family: monospace;
+ letter-spacing: 0.5px;
+ color: #333333;
+}
+
+.page-content {
+  margin: 75px 30px;
+  padding: 0;
+}
+
+
+// For Desktop
 @media screen and (min-width: 800px) {
  .post-list-heading {
   font-size:56px;
@@ -176,86 +237,33 @@ nav {
   height: 45px;
   align-items: center;
 }
-
 .main-nav {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   border-bottom: 0px;
-
 }
-
 .main-nav li {
   margin: 0;
   padding: 0;
 }
-
 .nav-links {
   margin: 0;
   display: block;
   padding: 14px ;
 }
-
 .logo {
   margin-top: 0;
   font-size: 16px;
   display: block;
   padding: 13px ;
 }
-
 .navbar-toggle {
   display: none;
 }
-
 }
 
- .post-list-heading {
-  font-weight: normal;
-  font-family:monospace;
-  margin-bottom:0
- }
- .post-list-subheading {
-  font-family:monospace;
-  letter-spacing: 3px;
-  margin-bottom: 50px;
- }
-
-.post-link {
- display:block;
- font-family: monospace;
- letter-spacing: 0.5px;
- color: #333333;
-}
-
-.page-content {
-  margin: 75px 30px;
-  padding: 0;
-}
-
-
-#tw {
-  margin: 0;
-  display: block;
-  padding: 16px ;
-  font-weight: bold;
-  position: absolute;
-  left: 123px;
-  top: 0;
-}
-
-#gh {
-  margin: 0;
-  display: block;
-  padding: 16px ;
-  font-weight: bold;
-  position: absolute;
-  left: 172px;
-  top: 0;
-}
-#burger {
-  font-size:30px;
-}
-
+// Tablets
 @media screen and (min-width: 600px)
 {
   .navbar {
@@ -295,5 +303,4 @@ nav {
   .navbar-toggle {
     display: none;
   }
-
 }
