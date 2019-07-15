@@ -26,45 +26,66 @@
   color: lightblue;
 }
 
+
 .navbar {
-  font-family: monospace;
   font-size: 14px;
-  overflow: hidden;
-  width: 100%;
   background-color: #F0F8FF;
-  margin: 0px;
-  padding: 0px 0px 0px 0px;
-height: 45px;
-position: relative;
-}
-.navbar li {
-  list-style: none;
-  display: inline;
-  float:right;
+
 }
 
-.navbar a {
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
+.main-nav {
+  list-style-type: none;
+  display: none;
+  border-bottom: 2px solid #CCFFCC;
+
+}
+
+
+.nav-links,
+.logo {
   text-decoration: none;
+  color: black;
 }
 
-.nav-links:hover {
-color: white;
-background-color: #BD0048;
-}
-#lang {
-  font-weight:bold;
-  color:rebeccapurple;
-  text-shadow: 1px 1px 1px #CDC0B0  ;
+.main-nav li {
+  text-align: center;
+  padding: 15px 16px;
 }
 
-#home {
+.logo {
+  display: inline-block;
+  font-size: 14px;
+  margin: 0;
+  padding: 16px;
   background-color: #CCFFCC;
   font-weight: bold;
+}
 
+.social {
+  display: inline-block;
+  font-size: 18px;
+  padding: 13px 15px;
+}
+
+.navbar-toggle {
+  position: absolute;
+  top: 4px;
+  right: 20px;
+  cursor: pointer;
+  color: black;
+  font-size: 24px;
+}
+
+header {
+    height: 30px;
+    background-color: pink;
+    margin-bottom: 40px;
+    diplay: flex;
+}
+
+nav {
+     position: relative;
+       z-index: 1;
 }
 .active {
   background-color: #ffe4b5;
@@ -139,15 +160,53 @@ background-color: #BD0048;
   font-family:monospace;
   font-size:18px;
   margin-bottom:50px;
-  letter-spacing: 3px; 
+  letter-spacing: 3px;
  }
 .post-link {
  display:block;
  font-family: monospace;
- letter-spacing: 0.5px; 
+ letter-spacing: 0.5px;
  font-size:24px;
  color: #333333;
 }
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0;
+  height: 45px;
+  align-items: center;
+}
+
+.main-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  border-bottom: 0px;
+
+}
+
+.main-nav li {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links {
+  margin: 0;
+  display: block;
+  padding: 14px ;
+}
+
+.logo {
+  margin-top: 0;
+  font-size: 16px;
+  display: block;
+  padding: 13px ;
+}
+
+.navbar-toggle {
+  display: none;
+}
+
 }
 
  .post-list-heading {
@@ -157,18 +216,84 @@ background-color: #BD0048;
  }
  .post-list-subheading {
   font-family:monospace;
-  letter-spacing: 3px; 
+  letter-spacing: 3px;
   margin-bottom: 50px;
  }
 
 .post-link {
  display:block;
  font-family: monospace;
- letter-spacing: 0.5px; 
+ letter-spacing: 0.5px;
  color: #333333;
 }
 
 .page-content {
   margin: 75px 30px;
   padding: 0;
+}
+
+
+#tw {
+  margin: 0;
+  display: block;
+  padding: 16px ;
+  font-weight: bold;
+  position: absolute;
+  left: 123px;
+  top: 0;
+}
+
+#gh {
+  margin: 0;
+  display: block;
+  padding: 16px ;
+  font-weight: bold;
+  position: absolute;
+  left: 172px;
+  top: 0;
+}
+#burger {
+  font-size:30px;
+}
+
+@media screen and (min-width: 600px)
+{
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+    height: 45px;
+    align-items: center;
+  }
+
+  .main-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    border-bottom: 0px;
+
+  }
+
+  .main-nav li {
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-links {
+    margin: 0;
+    display: block;
+    padding: 14px ;
+  }
+
+  .logo {
+    margin-top: 0;
+    font-size: 16px;
+    display: block;
+    padding: 13px ;
+  }
+
+  .navbar-toggle {
+    display: none;
+  }
+
 }
