@@ -14,7 +14,7 @@ layout: default
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author | escape }}</span></span>
       {%- endif -%}
       {%- if page.categories -%}
-      <span> <span class="labels"><a href="https://google.com">#{{ page.categories}}</a></span></span>
+      <span> <span class="labels"><a href="/{{ page.categories}}">#{{ page.categories}}</a></span></span>
       {%- endif -%}
     </p>
   </header>
