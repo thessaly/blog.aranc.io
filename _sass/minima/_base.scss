@@ -38,10 +38,8 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-  margin-bottom: $spacing-unit / 2;
+  margin-bottom: $spacing-unit / 1.5;
 }
-
-
 
 /**
  * `main` element
@@ -56,8 +54,13 @@ main {
  * Images
  */
 img {
-  max-width: 100%;
+  max-width: 80%;
   vertical-align: middle;
+  margin-top: $spacing-unit;
+  margin-bottom: $spacing-unit;
+
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 
@@ -71,6 +74,7 @@ figure > img {
 
 figcaption {
   font-size: $small-font-size;
+  margin-bottom: $spacing-unit / 2;
 }
 
 
@@ -135,11 +139,8 @@ blockquote {
   padding-left: $spacing-unit / 2;
   @include relative-font-size(1.125);
   letter-spacing: -1px;
-  font-style: italic;
-
-  > :last-child {
-    margin-bottom: 0;
-  }
+  margin-top: $spacing-unit;
+  margin-bottom: inherit;
 }
 
 
