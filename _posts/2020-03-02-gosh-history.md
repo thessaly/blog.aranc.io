@@ -4,7 +4,7 @@ title: "On writing a (short) GOSH history"
 categories: STS
 ---
 
-I find narrating stories both necessary and delightful. I enjoy the exercise of tracing threads back, crafting a path for the reader, (partially) understanding how and why things got to a certain point in time. Besides, there's lot of power in putting the past into words; [historical revisionism](https://en.wikipedia.org/wiki/Historical_revisionism) wouldn't exist all along history otherwise.
+I find narrating stories both necessary and delightful. I enjoy the exercise of tracing threads back, crafting a path for the reader, (partially) understanding how and why things got to a certain point in time. Besides, there's lot of power in putting the past into words; [historical revisionism](https://en.wikipedia.org/wiki/Historical_revisionism) wouldn't exist all along history otherwise, no?
 
 In particular if you're doing a PhD in [Science & Technology Studies (STS)](https://en.wikipedia.org/wiki/Science_and_technology_studies) like me, you quickly learn how different stories, narratives and [framings](https://en.wikipedia.org/wiki/Framing_(social_sciences)) around technology shape the way it is perceived, adopted, rejected or regulated. You also quickly learn how important it is to question them:
 
@@ -22,7 +22,7 @@ That was quite a long introduction, but it served a purpose. I think one of the 
 
 In perspective, I really enjoyed the process of interviewing such different people from all around the globe. I also feel, making reference to the beginning of this post, that in a moment like this when the community is facing change and growth, it's important to understand where all started.
 
-I published a reduced version as it's supposed to give lots of info in a quick glance for those visiting GOSH website. A longer version is included in a chapter of my thesis that analyzes GOSH as a [Grassroots Innovation Movement](https://www.routledge.com/Grassroots-Innovation-Movements-1st-Edition/Smith-Fressoli-Abrol-Arond-Ely/p/book/9781138901223). I'll also publish an article on it, but I have to decide in which journal (I'm between going for the [Journal of Open Hardware](https://openhardware.metajnl.com/) or something more STS-related), if it gets accepted.
+I published a reduced version as it's supposed to give lots of info in a quick glance for those visiting GOSH website. A longer version is included in a chapter of my thesis that analyzes GOSH as a [Grassroots Innovation Movement](https://www.routledge.com/Grassroots-Innovation-Movements-1st-Edition/Smith-Fressoli-Abrol-Arond-Ely/p/book/9781138901223). I'll also publish an article on it, but I have to decide in which journal (I'm between going for the [Journal of Open Hardware](https://openhardware.metajnl.com/) or something more STS-related), if it gets accepted 🤞.
 
 ![GIF of me scrolling gosh history website](/assets/img/gosh-history.gif)    
 
