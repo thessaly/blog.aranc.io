@@ -7,3 +7,5 @@ _site
 LICENSE.txt
 .editorconfig
 .travis.yml
+.jekyll-cache
+
