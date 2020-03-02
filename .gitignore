@@ -8,4 +8,4 @@ LICENSE.txt
 .editorconfig
 .travis.yml
 .jekyll-cache
-
+vendor
