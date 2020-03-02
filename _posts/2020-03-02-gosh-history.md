@@ -14,7 +14,9 @@ In particular if you're doing a PhD in [Science & Technology Studies (STS)](http
 
 Related to Feenberg's ideas, last weekend I was reading this [thematic collection](https://estsjournal.org/index.php/ests/issue/view/13) in *[Engaging Science, Technology, and Society](https://estsjournal.org)* journal. The collection addresses different aspects of the relationship between STS and democracy. I was particularly interested in an essay by [Michael Lynch](https://en.wikipedia.org/wiki/Michael_Lynch_(ethnomethodologist)), on the role of questioning science and technology in an era of post-truth and anti-science movements. I don't want to spoil it, but maybe you can get a hint by its title *"We Have Never Been Anti-Science: Reflections on Science Wars and Post-Truth"*.
 
-That was **quite** a long introduction just to bring up that I finally published a reduced [history](https://thessaly.github.io/gosh-history) of the [Global Open Science Hardware (GOSH) movement](https://openhardware.science) for [community review](https://forum.openhardware.science/t/gosh-history-open-to-comments).
+That was **quite** a long introduction just to bring up that I finally published a reduced history of the [Global Open Science Hardware (GOSH) movement](https://openhardware.science) for [community review](https://forum.openhardware.science/t/gosh-history-open-to-comments).
+
+**[➡️ READ IT HERE 📚](https://thessaly.github.io/gosh-history)**
 
 It's a reduced version as it's supposed to give lots of info in a quick glance for those visiting GOSH website. A longer version is included in a chapter of my thesis that analyzes GOSH as a [Grassroots Innovation Movement](https://www.routledge.com/Grassroots-Innovation-Movements-1st-Edition/Smith-Fressoli-Abrol-Arond-Ely/p/book/9781138901223). I'll also publish an article on it, but I have to decide in which journal (I'm between going for the [Journal of Open Hardware](https://openhardware.metajnl.com/) or something more STS-related), if it gets accepted.
 
