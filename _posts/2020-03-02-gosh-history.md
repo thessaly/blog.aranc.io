@@ -2,7 +2,7 @@
 layout: post
 title: "On writing a (short) GOSH history"
 categories: STS
-comments: true
+comments: false
 ---
 
 I find narrating stories both necessary and delightful. I enjoy the exercise of tracing threads back, crafting a path for the reader, (partially) understanding how and why things got to a certain point in time. Besides, there's lot of power in putting the past into words; [historical revisionism](https://en.wikipedia.org/wiki/Historical_revisionism) wouldn't exist all along history otherwise, no?
