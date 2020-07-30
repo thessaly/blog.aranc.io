@@ -27,6 +27,4 @@ I published a reduced version as it's supposed to give lots of info in a quick g
 
 ![GIF of me scrolling gosh history website](/assets/img/gosh-history.gif)    
 
-In terms of looks, I originally aimed to render the text with a [vaporwave](https://en.wikipedia.org/wiki/Vaporwave), retro-internet aesthetic (see [this M.I.A. video](https://www.youtube.com/watch?v=sfbQ5mHWkOs) for reference in case you're **too young**). It would have looked soooo cool.
-
-But afterwards I thought it twice and realized it wouldn't match GOSH website look & feel, so I became all boring and fell for a standard Bootstrap CSS. *On the bright side*, it allowed me to finally master [CSS flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox) and tools for [responsive design](https://developer.mozilla.org/en-US/docs/Tools/Responsive_Design_Mode), so I can't complain 🎉.
+In terms of looks, I originally aimed to render the text with a [vaporwave](https://en.wikipedia.org/wiki/Vaporwave), retro-internet aesthetic. It would have looked soooo cool. But afterwards I thought it twice and realized it wouldn't match GOSH website look & feel, so I became all boring and fell for a standard Bootstrap CSS. *On the bright side*, it allowed me to finally master [CSS flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox) and tools for [responsive design](https://developer.mozilla.org/en-US/docs/Tools/Responsive_Design_Mode), so I can't complain 🎉.
