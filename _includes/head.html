@@ -8,18 +8,7 @@
     {%- include google-analytics.html -%}
   {%- endif -%}
   
-  
-  <!-- Twitter cards -->
-  <meta name="twitter:card" content="summary"/> 
-  <meta name="twitter:title" content="{{ page.title }}"/> 
-  <meta name="twitter:description" content="{{ site.title }}"/> 
-
-  {% if page.image %}
-  <meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
-  {% else %}
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/3/31/Oyster_mushroom_%28Pleurotus_ostreatus%29_mycelium_in_petri_dish_on_coffee_grounds.JPG">
-  {% endif %}
-  <!-- end of Twitter cards -->
+  {%- seo -%}
 
 
 
