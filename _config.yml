@@ -1,10 +1,16 @@
 title: Hyphae
+tagline: A blog by Julieta Arancio
+description: > # this means to ignore newlines until "show_excerpts:"
+Thoughts on open science, open hardware, open*
+show_excerpts: false # set to true to show excerpts on the homepage
 author: Julieta Arancio
 email: jarancio@unsam.edu.ar
-description: > # this means to ignore newlines until "show_excerpts:"
-  A blog by Julieta Arancio
-show_excerpts: false # set to true to show excerpts on the homepage
+url: blog.aranc.io
 
+twitter:
+  username: cassandreces
+  card: summary
+  
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:
