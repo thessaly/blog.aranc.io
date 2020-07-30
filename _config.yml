@@ -1,7 +1,7 @@
 title: Hyphae
 tagline: A blog by Julieta Arancio
 description: > # this means to ignore newlines until "show_excerpts:"
-Thoughts on open science, open hardware, open*
+  Thoughts on open science, open hardware, appropriate tech
 show_excerpts: false # set to true to show excerpts on the homepage
 author: Julieta Arancio
 email: jarancio@unsam.edu.ar
