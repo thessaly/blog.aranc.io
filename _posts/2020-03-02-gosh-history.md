@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "On writing a (short) GOSH history"
-categories: [STS, open-hardware]
+categories: open-hardware
 comments: false
 ---
 
